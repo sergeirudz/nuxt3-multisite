@@ -8,6 +8,15 @@ importers:
 
   .: {}
 
+  features/config:
+    devDependencies:
+      '@nuxt/devtools':
+        specifier: latest
+        version: 0.8.2(nuxt@3.7.0)(vite@4.4.9)
+      nuxt:
+        specifier: ^3.7.0
+        version: 3.7.0
+
   orgs/org1:
     devDependencies:
       '@nuxt/devtools':
