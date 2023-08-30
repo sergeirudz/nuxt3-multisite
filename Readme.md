@@ -14,7 +14,6 @@
 
 - Add feature
   - ``` pnpm dlx nuxi init features/config ```
-  pnpm dlx nuxi init nuxi-tutorial
 
 ### Other
 
