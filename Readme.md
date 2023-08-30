@@ -3,5 +3,7 @@
 ## Commands
 
 - Add org
-  - cd orgs
-  - ```pnpm dlx nuxi init website1```
+  - ```pnpm dlx nuxi init orgs/org1```
+- Start org
+  - ```pnpm --filter org1 run dev```
+    - org1 is 'name:' inside orgs/org1/package.json
