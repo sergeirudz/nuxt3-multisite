@@ -1,5 +1,7 @@
 # Info
 
+- Add <https://tailwindcss.nuxtjs.org/tailwind/viewer>
+
 ## Commands
 
 ### Organizations
@@ -16,7 +18,15 @@
   - ``` pnpm dlx nuxi init features/config ```
   - select 'pnpn'
 
+### Install packages
+
+- ``` pnpm add primevue --filter config ```
+- ``` pnpm add -D tailwindcss postcss autoprefixer --filter ./features/config ```
+  - Install package to a specific feature. config is 'name:' inside features/config/package.json
+
 ### Other
+
+Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nuxi-nuxt-cli/>
 
 - npx nuxi analyze
 - Add component:
