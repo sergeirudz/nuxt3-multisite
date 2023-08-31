@@ -14,7 +14,11 @@
 
 - Add feature
   - ``` pnpm dlx nuxi init features/config ```
+  - select 'pnpn'
 
 ### Other
 
 - npx nuxi analyze
+- Add component:
+  - cd features/config
+  - ``` npx nuxi add component Header ```
