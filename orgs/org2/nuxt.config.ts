@@ -2,9 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   extends: [
-    // '../../features/config',
-    // '../../features/news',
-    // '../../features/frontpage',
-    '../example1'
+    '../../features/config'
   ],
 })

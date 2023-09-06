@@ -5,7 +5,7 @@
 
 ## Commands
 
-- ``` "dev:org1": "pnpm --filter org1 run dev", ```
+- ``` "dev:org1": "pnpm --filter org1 run dev" ```
 - ``` "dev:org2": "pnpm --filter org2 run dev" ```
 
 ### Organizations
@@ -47,3 +47,5 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
 - add specific versions to generate feature or org
 - create global tsconfig
 - Dockerize
+- Tailwindcss & Primevue theme
+- Storybook
