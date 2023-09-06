@@ -1,5 +1,5 @@
 export default {
-  "en-CA": {
+  "en": {
     currency: {
       style: "currency",
       currency: "USD",
@@ -15,10 +15,10 @@ export default {
       useGrouping: false,
     },
   },
-  "ar-EG": {
+  "et": {
     currency: {
       style: "currency",
-      currency: "USD",
+      currency: "EUR",
       notation: "standard",
     },
     decimal: {

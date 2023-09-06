@@ -5,6 +5,9 @@
 
 ## Commands
 
+- ``` "dev:org1": "pnpm --filter org1 run dev", ```
+- ``` "dev:org2": "pnpm --filter org2 run dev" ```
+
 ### Organizations
 
 - Add org
@@ -21,9 +24,10 @@
 
 ### Install packages
 
-- ``` pnpm add primevue --filter config ```
-- ``` pnpm add -D tailwindcss postcss autoprefixer --filter ./features/config ```
-  - Install package to a specific feature. config is 'name:' inside features/config/package.json
+- Install package for specific module. ('config' is 'name:' inside features/config/package.json)
+  - ``` pnpm add primevue -D --filter config ```
+- Install package at the root level
+  - ``` pnpm add typescript -Dw ```
 
 ### Other
 
@@ -33,3 +37,13 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
 - Add component:
   - cd features/config
   - ``` npx nuxi add component Header ```
+
+## TODO
+
+- add node version to package.json <https://www.marcusoft.net/2015/03/packagejson-and-engines-and-enginestrict.html>
+- Create command to run all websites at the same time
+- create global linting rules
+- add @nuxtjs/robots
+- add specific versions to generate feature or org
+- create global tsconfig
+- Dockerize

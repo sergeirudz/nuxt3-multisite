@@ -1,12 +1,12 @@
 export default {
-  "en-CA": {
+  "en": {
     short: {
       year: "numeric",
       month: "short",
       day: "numeric",
     },
   },
-  "ar-EG": {
+  "et": {
     short: {
       year: "numeric",
       month: "2-digit",
