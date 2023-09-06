@@ -1,3 +1,4 @@
 export default {
-    welcome: "Tere EESTI KEELES"
+    welcome: "Tere EESTI KEELES",
+    news: "Uudised EESTI KEELES",
 }
