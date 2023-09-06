@@ -7,15 +7,15 @@ export default defineNuxtConfig({
   build: {
     transpile: ['nuxt', 'primevue']
   },
-  primevue: {
-    config: {
-      // Set global config
-    }
-  },
+  // primevue: {
+  //   config: {
+  //     // Set global config
+  //   }
+  // },
   css: [
     // 'primevue/resources/primevue.css',
     "primevue/resources/themes/lara-light-blue/theme.css"
 
   ],
-  devtools: { enabled: true }
+  devtools: { enabled: false }
 })
