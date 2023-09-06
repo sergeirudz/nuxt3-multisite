@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/i18n',],
   tailwindcss: {
     // tailwindcss Options https://tailwindcss.nuxtjs.org/tailwind/config
   },
@@ -17,5 +17,28 @@ export default defineNuxtConfig({
     "primevue/resources/themes/lara-light-blue/theme.css"
 
   ],
-  devtools: { enabled: false }
+  devtools: { enabled: false },
+  i18n: {
+    defaultLocale: 'et', 
+    locales: [
+      {
+        code: "en",
+        name: "English",
+        iso: "en",
+        dir: "ltr",
+        file: "en.ts",
+      },
+      {
+        code: "et",
+        name: "Eesti",
+        iso: "et",
+        dir: "ltr",
+        file: "et.ts",
+      },
+    ],
+    lazy: true,
+    langDir: "locale",
+    strategy: 'prefix_except_default', 
+    vueI18n: './i18n.config.ts' // if you are using custom path, default 
+  }
 })

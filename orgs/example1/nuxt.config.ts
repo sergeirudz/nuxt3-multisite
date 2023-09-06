@@ -3,7 +3,7 @@
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxtjs/i18n"],
   routeRules: {
-    "/": { redirect: "/en-CA" },
+    // "/": { redirect: "/en-CA" },
   },
   extends: [
     // '../../features/config',
@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     // '../example1'
   ],
   i18n: {
-    baseUrl: "http://localhost:3000",
+    // baseUrl: "http://localhost:3000",
     locales: [
       {
         code: "en-CA",

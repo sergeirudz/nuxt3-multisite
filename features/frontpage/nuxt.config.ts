@@ -3,5 +3,5 @@ export default defineNuxtConfig({
   extends: [
     // '../config2',
   ],
-  devtools: { enabled: true }
+  devtools: { enabled: false }
 })
