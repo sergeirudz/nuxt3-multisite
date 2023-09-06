@@ -1,6 +1,7 @@
 # Info
 
 - Add <https://tailwindcss.nuxtjs.org/tailwind/viewer>
+- If I extend form config then the components don't work.
 
 ## Commands
 

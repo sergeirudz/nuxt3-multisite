@@ -6,7 +6,8 @@
   "scripts": {
     "dev:org1": "pnpm --filter org1 run dev",
     "dev:org2": "pnpm --filter org2 run dev",
-    "dev:ex1": "pnpm --filter example1 run dev"
+    "dev:ex1": "pnpm --filter example1 run dev",
+    "dev:ex2": "pnpm --filter example2 npm run dev"
   },
   "keywords": [],
   "author": "",

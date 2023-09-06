@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { redirect: "/en-CA" },
   },
+  extends: [
+    // '../../features/config',
+    // '../../features/news',
+    // '../../features/frontpage',
+    // '../example1'
+  ],
   i18n: {
     baseUrl: "http://localhost:3000",
     locales: [
