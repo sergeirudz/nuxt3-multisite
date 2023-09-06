@@ -1,3 +1,4 @@
 <template>
     <LangSwitcher />
+    <NewsSection />
 </template>

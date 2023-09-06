@@ -21,7 +21,6 @@ async function changeLocale(event) {
                 {{ lang.toUpperCase() }}
             </option>
         </select>
-        <Navbar />
     </div>
 </template>
 
