@@ -19,6 +19,17 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: false },
   i18n: {
+    // detectBrowserLanguage: false, // https://v8.i18n.nuxtjs.org/guide/browser-language-detection
+    
+    
+    customRoutes: 'config',   // disable custom route with page components
+    pages: {
+      'news/index': {
+        en: '/news',
+        et: '/uudised'
+      },
+    },
+
     defaultLocale: 'et', 
     locales: [
       {
@@ -39,6 +50,6 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: "locale",
     strategy: 'prefix_except_default', 
-    vueI18n: './i18n.config.ts' // if you are using custom path, default 
+    vueI18n: './i18n.config.ts', // if you are using custom path, default 
   }
 })

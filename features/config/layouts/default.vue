@@ -2,7 +2,17 @@
 </script>
 
 <template>
-    <div>
+    <header>
+        <LangSwitcher />
+    </header>
+    <main class="main">
         <slot />
-    </div>
+    </main>
 </template>
+
+<style>
+.main {
+    display: flex;
+    justify-content: center;
+}
+</style>

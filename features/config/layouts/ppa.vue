@@ -1,13 +1,19 @@
 <script setup lang="ts">
+import Navbar from '../components/Navbar.vue';
+
 </script>
 
 <template>
-    <div class="container">
+    <header>
+        <LangSwitcher />
+        <Navbar />
+    </header>
+    <main class="main">
         <slot />
-    </div>
+    </main>
 </template>
 <style>
-.container {
+.main {
     border: 5px solid blue;
 }
 </style>

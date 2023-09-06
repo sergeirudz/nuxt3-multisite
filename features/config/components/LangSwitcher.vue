@@ -32,5 +32,7 @@ async function changeLocale(event) {
     margin: auto;
     display: flex;
     gap: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
 }
 </style>

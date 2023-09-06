@@ -6,12 +6,12 @@ const response = fetchedNews.value.articles
 
 
 
-defineI18nRoute({
-    paths: {
-        en: '/news',
-        et: '/uudised',
-    }
-})
+// defineI18nRoute({
+//     paths: {
+//         en: '/news',
+//         et: '/uudised',
+//     }
+// })
 
 </script>
 
