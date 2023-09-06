@@ -2,7 +2,17 @@
 const route = useRoute()
 const fetchedNews = await useFetchAllNews()
 const response = fetchedNews.value.articles
-console.log(response)
+
+
+
+
+defineI18nRoute({
+    paths: {
+        en: '/news',
+        et: '/uudised',
+    }
+})
+
 </script>
 
 <template>
