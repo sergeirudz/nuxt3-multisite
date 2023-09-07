@@ -1,11 +1,11 @@
+import tailwindConfig from './tailwind.config'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/i18n',],
-  // tailwindcss: {
-  //   // tailwindcss Options https://tailwindcss.nuxtjs.org/tailwind/config
-  // },
+  tailwindcss: tailwindConfig,
   build: {
-    transpile: ['nuxt', 'primevue']
+    transpile: ['primevue']
   },
   // primevue: {
   //   config: {

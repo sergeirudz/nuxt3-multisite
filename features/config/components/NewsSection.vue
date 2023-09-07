@@ -40,10 +40,10 @@ const newsListData = [
         dignissimos!</div>
     </div>
     <div class="newsList">
-      <div v-for="news in  newsListData " :key="news.title" class="newsItem">
+      <!-- <div v-for="news in  newsListData " :key="news.title" class="newsItem">
         <div>{{ news.date }}</div>
         <div><a :href="news.href">{{ news.title }}</a></div>
-      </div>
+      </div> -->
 
     </div>
   </div>

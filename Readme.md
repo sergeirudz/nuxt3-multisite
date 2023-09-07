@@ -13,6 +13,7 @@
 
 - Tailwind viewer '<http://localhost:3001/_tailwind/>'
   - NB! does not work on '<http://localhost:3001/_tailwind>'
+  - Restart if you edit anything in tailwind config
 
 ### Organizations
 
@@ -44,6 +45,7 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
 - Add component:
   - cd features/config
   - ``` npx nuxi add component Header ```
+- Generate tailwind colors for the theme <https://huetone.ardov.me/>
 
 ## TODO
 

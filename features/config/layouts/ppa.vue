@@ -5,16 +5,15 @@ import Navbar from '../components/Navbar.vue';
 </script>
 
 <template>
+  <div data-theme="blue">
+
     <header>
-        <LangSwitcher />
-        <Navbar />
+      <LangSwitcher />
+      <Navbar />
     </header>
-    <main class="main">
-        <slot />
+    <main class="bg-primary-500">
+      <slot />
     </main>
+  </div>
 </template>
-<style>
-.main {
-    border: 5px solid blue;
-}
-</style>
+<style></style>
