@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import LangSwitcher from '../components/LangSwitcher.vue';
 import Navbar from '../components/Navbar.vue';
 
 </script>
