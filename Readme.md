@@ -11,6 +11,9 @@
 3. Run different websites
     - i.e. ``` pnpm run dev:org1 ```
 
+- Tailwind viewer '<http://localhost:3001/_tailwind/>'
+  - NB! does not work on '<http://localhost:3001/_tailwind>'
+
 ### Organizations
 
 - Add a new org

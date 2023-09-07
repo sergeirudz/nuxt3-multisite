@@ -4,6 +4,7 @@
   "compilerOptions": {
     "strict": true,
     "skipLibCheck": true,
+    "ignoreDeprecations": "5.0",
     "types": [
       "@nuxt/types",
       "@nuxtjs/i18n",

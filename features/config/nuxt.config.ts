@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/i18n',],
-  tailwindcss: {
-    // tailwindcss Options https://tailwindcss.nuxtjs.org/tailwind/config
-  },
+  // tailwindcss: {
+  //   // tailwindcss Options https://tailwindcss.nuxtjs.org/tailwind/config
+  // },
   build: {
     transpile: ['nuxt', 'primevue']
   },
@@ -20,8 +20,8 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   i18n: {
     // detectBrowserLanguage: false, // https://v8.i18n.nuxtjs.org/guide/browser-language-detection
-    
-    
+
+
     customRoutes: 'config',   // disable custom route with page components
     pages: {
       'news/index': {
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
       },
     },
 
-    defaultLocale: 'et', 
+    defaultLocale: 'et',
     locales: [
       {
         code: "en",
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
     ],
     lazy: true,
     langDir: "locale",
-    strategy: 'prefix_except_default', 
-    vueI18n: './i18n.config.ts', // if you are using custom path, default 
+    strategy: 'prefix_except_default',
+    vueI18n: './i18n.config.ts', // if you are using custom path, default
   }
 })
