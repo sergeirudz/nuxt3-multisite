@@ -2,7 +2,7 @@ import tailwindConfig from './tailwind.config'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/i18n',],
+  modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/i18n', 'nuxt-vitest'],
   tailwindcss: tailwindConfig,
   build: {
     transpile: ['primevue']

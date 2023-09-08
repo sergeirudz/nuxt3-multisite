@@ -50,6 +50,7 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
 ## TODO
 
 - Tailwindcss themes
+- Add Vitest <https://www.npmjs.com/package/nuxt-vitest>
 - add Primevue components
 - add node version to package.json <https://www.marcusoft.net/2015/03/packagejson-and-engines-and-enginestrict.html>
 - Create command to run all websites at the same time
