@@ -1,4 +1,4 @@
-import tailwindOrgColors from '../../orgs/org1/assets/styles/common/org/tailwindOrgColors'
+import palette from './assets/styles/common/org1/palette'
 import hexRgb from 'hex-rgb'
 
 function getRgbChannels(hex: string) {
@@ -6,12 +6,13 @@ function getRgbChannels(hex: string) {
   return `${red} ${green} ${blue}`
   // getRgbChannels('#0099aa') => 0 153 170
 }
+const tailwindOrgColors = palette;
 
 export default Object.fromEntries(Object.entries(tailwindOrgColors).map(([key, value]) => {
   return [key, {
     ...Object.fromEntries(
-      Object.entries(value).map(([innerKey, innerValue]) => {
-        return [innerKey, `rgb(${getRgbChannels(innerValue)} / <alpha-value>)`];
+      Object.entries(value as string).map(([innerKey, innerValue]) => {
+        return [innerKey, `rgb(${getRgbChannels(innerValue as string)} / <alpha-value>)`];
       })
     )
   }];

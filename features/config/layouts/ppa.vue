@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar.vue';
       <LangSwitcher />
       <Navbar />
     </header>
-    <main class="bg-primary-500">
+    <main class="bg-primary-300">
       <slot />
     </main>
   </div>
