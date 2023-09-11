@@ -30,12 +30,14 @@
   - ``` pnpm dlx nuxi init features/base ```
   - select 'pnpn'
 
-### Install new packages
+### Un-/Install new packages
 
 - Install package for specific module. ('base' is 'name:' inside features/base/package.json)
   - ``` pnpm add primevue -D --filter base ```
 - Install package at the root level
   - ``` pnpm add typescript -Dw ```
+- Unintall
+  - ``` pnpm remove stylus --filter base ```
 
 ### Other
 

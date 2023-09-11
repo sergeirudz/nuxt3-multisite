@@ -1,5 +1,4 @@
 import type { Config } from 'tailwindcss'
-import tailwindTheme from './tailwindTheme'
 
 export default <Partial<Config>>{
   // module.exports = {
@@ -16,9 +15,7 @@ export default <Partial<Config>>{
     extend: {
       maxWidth: {
       },
-      // colors: tailwindTheme, // OLD generated from json values
       colors: {
-        a: `rgb(var(--testing) / 1)`,
         primary: {
           50:  'rgb(var(--color-primary-50) / <alpha-value>)',
           100: 'rgb(var(--color-primary-100) / <alpha-value>)',
