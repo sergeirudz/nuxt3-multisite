@@ -27,13 +27,13 @@
 ### Features
 
 - Add feature
-  - ``` pnpm dlx nuxi init features/config ```
+  - ``` pnpm dlx nuxi init features/base ```
   - select 'pnpn'
 
 ### Install new packages
 
-- Install package for specific module. ('config' is 'name:' inside features/config/package.json)
-  - ``` pnpm add primevue -D --filter config ```
+- Install package for specific module. ('base' is 'name:' inside features/base/package.json)
+  - ``` pnpm add primevue -D --filter base ```
 - Install package at the root level
   - ``` pnpm add typescript -Dw ```
 
@@ -43,7 +43,7 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
 
 - npx nuxi analyze
 - Add component:
-  - cd features/config
+  - cd features/base
   - ``` npx nuxi add component Header ```
 - Generate tailwind colors for the theme <https://huetone.ardov.me/>
 
