@@ -1,9 +1,6 @@
-import tailwindConfig from './tailwind.config'
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/i18n', 'nuxt-vitest'],
-  tailwindcss: tailwindConfig,
   build: {
     transpile: ['primevue']
   },
@@ -12,16 +9,10 @@ export default defineNuxtConfig({
   //     // Set global config
   //   }
   // },
-  css: [
-    // 'primevue/resources/primevue.css',
-    "primevue/resources/themes/lara-light-blue/theme.css"
-
-  ],
+  css: [],
   devtools: { enabled: false },
   i18n: {
     // detectBrowserLanguage: false, // https://v8.i18n.nuxtjs.org/guide/browser-language-detection
-
-
     customRoutes: 'config',   // disable custom route with page components
     pages: {
       'news/index': {
