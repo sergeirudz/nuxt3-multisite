@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss',  '@nuxtjs/i18n', 'nuxt-vitest'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-vitest'],
   build: {
-    transpile: ['primevue']
+    transpile: ['primevue'],
   },
   // primevue: {
   //   config: {
@@ -13,34 +13,34 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   i18n: {
     // detectBrowserLanguage: false, // https://v8.i18n.nuxtjs.org/guide/browser-language-detection
-    customRoutes: 'config',   // disable custom route with page components
+    customRoutes: 'config', // disable custom route with page components
     pages: {
       'news/index': {
         en: '/news',
-        et: '/uudised'
+        et: '/uudised',
       },
     },
 
     defaultLocale: 'et',
     locales: [
       {
-        code: "en",
-        name: "English",
-        iso: "en",
-        dir: "ltr",
-        file: "en.ts",
+        code: 'en',
+        name: 'English',
+        iso: 'en',
+        dir: 'ltr',
+        file: 'en.ts',
       },
       {
-        code: "et",
-        name: "Eesti",
-        iso: "et",
-        dir: "ltr",
-        file: "et.ts",
+        code: 'et',
+        name: 'Eesti',
+        iso: 'et',
+        dir: 'ltr',
+        file: 'et.ts',
       },
     ],
     lazy: true,
-    langDir: "locale",
+    langDir: 'locale',
     strategy: 'prefix_except_default',
     vueI18n: './i18n.config.ts', // if you are using custom path, default
-  }
+  },
 })

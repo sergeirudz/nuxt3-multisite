@@ -13,11 +13,10 @@ export default <Partial<Config>>{
   // ],
   theme: {
     extend: {
-      maxWidth: {
-      },
+      maxWidth: {},
       colors: {
         primary: {
-          50:  'rgb(var(--color-primary-50) / <alpha-value>)',
+          50: 'rgb(var(--color-primary-50) / <alpha-value>)',
           100: 'rgb(var(--color-primary-100) / <alpha-value>)',
           200: 'rgb(var(--color-primary-200) / <alpha-value>)',
           300: 'rgb(var(--color-primary-300) / <alpha-value>)',
@@ -29,7 +28,7 @@ export default <Partial<Config>>{
           900: 'rgb(var(--color-primary-900) / <alpha-value>)',
         },
         success: {
-          50:  'rgb(var(--color-success-50) / <alpha-value>)',
+          50: 'rgb(var(--color-success-50) / <alpha-value>)',
           100: 'rgb(var(--color-success-100) / <alpha-value>)',
           200: 'rgb(var(--color-success-200) / <alpha-value>)',
           300: 'rgb(var(--color-success-300) / <alpha-value>)',
@@ -41,7 +40,7 @@ export default <Partial<Config>>{
           900: 'rgb(var(--color-success-900) / <alpha-value>)',
         },
         warning: {
-          50:  'rgb(var(--color-warning-50) / <alpha-value>)',
+          50: 'rgb(var(--color-warning-50) / <alpha-value>)',
           100: 'rgb(var(--color-warning-100) / <alpha-value>)',
           200: 'rgb(var(--color-warning-200) / <alpha-value>)',
           300: 'rgb(var(--color-warning-300) / <alpha-value>)',
@@ -53,7 +52,7 @@ export default <Partial<Config>>{
           900: 'rgb(var(--color-warning-900) / <alpha-value>)',
         },
         danger: {
-          50:  'rgb(var(--color-danger-50) / <alpha-value>)',
+          50: 'rgb(var(--color-danger-50) / <alpha-value>)',
           100: 'rgb(var(--color-danger-100) / <alpha-value>)',
           200: 'rgb(var(--color-danger-200) / <alpha-value>)',
           300: 'rgb(var(--color-danger-300) / <alpha-value>)',
@@ -65,7 +64,7 @@ export default <Partial<Config>>{
           900: 'rgb(var(--color-danger-900) / <alpha-value>)',
         },
         info: {
-          50:  'rgb(var(--color-info-50) / <alpha-value>)',
+          50: 'rgb(var(--color-info-50) / <alpha-value>)',
           100: 'rgb(var(--color-info-100) / <alpha-value>)',
           200: 'rgb(var(--color-info-200) / <alpha-value>)',
           300: 'rgb(var(--color-info-300) / <alpha-value>)',
@@ -81,5 +80,5 @@ export default <Partial<Config>>{
     },
   },
   cssPath: './assets/styles/common/plugins/tailwind.css', // or false,
-  exposeConfig: true
+  exposeConfig: true,
 }

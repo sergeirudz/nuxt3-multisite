@@ -1,9 +1,5 @@
 # Info
 
-- Add <https://tailwindcss.nuxtjs.org/tailwind/viewer>
-- If I extend form config then the components don't work.
-- VS code TailwindCSS extension <https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss>
-
 ## Starting the project
 
 1. Install PNPM <https://pnpm.io/installation>
@@ -30,7 +26,7 @@
   - ``` pnpm dlx nuxi init features/base ```
   - select 'pnpn'
 
-### Un-/Install new packages
+## Un-/Install new packages
 
 - Install package for specific module. ('base' is 'name:' inside features/base/package.json)
   - ``` pnpm add primevue -D --filter base ```
@@ -39,7 +35,7 @@
 - Unintall
   - ``` pnpm remove stylus --filter base ```
 
-### Other
+## Other
 
 Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nuxi-nuxt-cli/>
 
@@ -49,17 +45,26 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
   - ``` npx nuxi add component Header ```
 - Generate tailwind colors for the theme <https://huetone.ardov.me/>
 
+### Extensions
+
+- Prettier
+- VS code TailwindCSS extension <https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss>
+
 ## TODO
 
-- Tailwindcss themes
-- Add Vitest <https://www.npmjs.com/package/nuxt-vitest>
-- add Primevue components
-- add node version to package.json <https://www.marcusoft.net/2015/03/packagejson-and-engines-and-enginestrict.html>
-- Create command to run all websites at the same time
-- create global linting rules
-- add @nuxtjs/robots
-- add specific versions to generate feature or org
-- create global tsconfig
-- Dockerize
-- Storybook
-- add husky
+[+] Tailwindcss theme for each org
+
+[-] fix imports autosuggestion
+[-] fix why language does not show both EN and ET. Works but selection not visible.
+
+[-] Add Vitest <https://www.npmjs.com/package/nuxt-vitest>
+[-] add Primevue components
+[-] add node version to package.json <https://www.marcusoft.net/2015/03/packagejson-and-engines-and-enginestrict.html>
+[-] Create command to run all websites at the same time
+[-] create global linting rules
+[-] add @nuxtjs/robots
+[-] add specific versions to generate feature or org
+[-] create global tsconfig
+[-] Dockerize for development and k8s deployments
+[-] Storybook for components
+[-] add husky
