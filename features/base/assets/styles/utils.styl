@@ -1,0 +1,8 @@
+hexToChannels($color)
+  return '%s %s %s' % red($color) green($color) blue($color)
+
+generateShades($palette)
+  :root
+    for $pk, $pv in $palette
+      for $sk, $sv in $palette[$pk]
+        --color-{$pk}-{$sk}: hexToChannels($sv)

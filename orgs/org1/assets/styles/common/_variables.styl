@@ -1,41 +1,4 @@
+@import '../../../../../features/base/assets/styles/utils.styl'
 $palette = json('./palette.json', {hash: true})
+generateShades($palette)
 
-hexToChannels($color)
-  return '%s %s %s' % red($color) green($color) blue($color)
-
-:root
-  /* PRIMARY */
-  for $k, $v in $palette.primary
-    if $k == 'transparent'
-      --color{$k}: transparent
-    else
-      --color-primary-{$k}: hexToChannels($v)
-
-  /* SUCCESS */
-  for $k, $v in $palette.success
-    if $k == 'transparent'
-      --color{$k}: transparent
-    else
-      --color-success-{$k}: hexToChannels($v)
-
-
-  /* WARNING */
-  for $k, $v in $palette.warning
-    if $k == 'transparent'
-      --color{$k}: transparent
-    else
-      --color-warning-{$k}: hexToChannels($v)
-
-  /* DANGER */
-  for $k, $v in $palette.danger
-    if $k == 'transparent'
-      --color{$k}: transparent
-    else
-      --color-danger-{$k}: hexToChannels($v)
-
-  /* INFO */
-  for $k, $v in $palette.info
-    if $k == 'transparent'
-      --color{$k}: transparent
-    else
-      --color-info-{$k}: hexToChannels($v)
