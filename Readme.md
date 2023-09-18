@@ -1,5 +1,8 @@
 # Info
 
+- using theme colors in CSS <https://tailwindcss.com/docs/functions-and-directives#theme>
+  - HMR does not work
+
 ## Starting the project
 
 1. Install PNPM <https://pnpm.io/installation>

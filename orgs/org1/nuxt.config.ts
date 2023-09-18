@@ -6,7 +6,5 @@ export default defineNuxtConfig({
     '../../features/news',
   ],
   devtools: { enabled: false },
-  css: [
-    '~/assets/styles/common/main.styl'
-  ]
-})
+  // css: ['~/assets/styles/main.styl'],
+});

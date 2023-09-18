@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   //     // Set global config
   //   }
   // },
-  css: [],
+  css: ['primevue/resources/themes/lara-light-blue/theme.css'],
   devtools: { enabled: false },
   i18n: {
     // detectBrowserLanguage: false, // https://v8.i18n.nuxtjs.org/guide/browser-language-detection

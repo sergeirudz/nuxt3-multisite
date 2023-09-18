@@ -1,3 +1,4 @@
 <template>
+    <Slider />
     <NewsSection />
 </template>

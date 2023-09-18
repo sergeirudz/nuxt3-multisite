@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar.vue';
       <LangSwitcher />
       <Navbar />
     </header>
-    <main class="bg-success-800 opacity-90">
+    <main class="bg-success-500 opacity-100">
       <slot />
     </main>
   </div>
