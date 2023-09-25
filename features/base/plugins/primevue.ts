@@ -2,8 +2,6 @@
 import { defineNuxtPlugin } from '#app'
 import PrimeVue from 'primevue/config'
 import Button from 'primevue/button'
-import Galleria from 'primevue/galleria'
-import Carousel from 'primevue/carousel'
 import TabMenu from 'primevue/tabmenu'
 import TabPanel from 'primevue/tabpanel'
 import PanelMenu from 'primevue/panelmenu'
@@ -15,8 +13,6 @@ import Image from 'primevue/image'
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(PrimeVue, { ripple: true })
   nuxtApp.vueApp.component('Button', Button)
-  nuxtApp.vueApp.component('Galleria', Galleria)
-  nuxtApp.vueApp.component('Carousel', Carousel)
   nuxtApp.vueApp.component('TabMenu', TabMenu)
   nuxtApp.vueApp.component('TabPanel', TabPanel)
   nuxtApp.vueApp.component('PanelMenu', PanelMenu)

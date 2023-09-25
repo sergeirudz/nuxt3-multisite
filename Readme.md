@@ -57,6 +57,7 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
 
 [+] Tailwindcss theme for each org
 
+[-] Add tailwind sorting <https://tailwindcss.com/blog/automatic-class-sorting-with-prettier>
 [-] fix imports autosuggestion
 [-] fix why language does not show both EN and ET. Works but selection not visible.
 
