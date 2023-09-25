@@ -1,22 +1,18 @@
 <template>
-  <div class="card">
-    <Accordion :activeIndex="0">
-      <slot name="tabs" />
-    </Accordion>
-  </div>
+  <Accordion :activeIndex="0">
+    <template v-for="(slotName, index) in listOfTabs">
+      <AccordionTab :header="slotName.header">
+        <slot :name="index" />
+      </AccordionTab>
+    </template>
+  </Accordion>
 </template>
 
 <script setup lang="ts">
+import Accordion from 'primevue/accordion'
+import AccordionTab from 'primevue/accordiontab'
 
-interface Props {
-  title: string;
-  content: string;
-}
-
-const props = defineProps({
-  tabs: {
-    type: Object as PropType<Props[]>,
-  }
-});
-
+defineProps<{
+  listOfTabs: Record<string, string>[]
+}>()
 </script>

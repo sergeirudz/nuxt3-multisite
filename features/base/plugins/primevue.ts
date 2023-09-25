@@ -11,8 +11,6 @@ import Menubar from 'primevue/menubar'
 import InputText from 'primevue/inputtext'
 import Breadcrumb from 'primevue/breadcrumb'
 import Image from 'primevue/image'
-import Accordion from 'primevue/accordion'
-import AccordionTab from 'primevue/accordiontab'
 
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(PrimeVue, { ripple: true })
@@ -26,6 +24,4 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component('InputText', InputText)
   nuxtApp.vueApp.component('Breadcrumb', Breadcrumb)
   nuxtApp.vueApp.component('Image', Image)
-  nuxtApp.vueApp.component('Accordion', Accordion)
-  nuxtApp.vueApp.component('AccordionTab', AccordionTab)
 })

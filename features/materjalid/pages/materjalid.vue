@@ -1,18 +1,21 @@
 <template>
     <div class="flex flex-col gap-10">
         <HeroWithNav :menu="pages" />
-        <!-- <Accordion>
-            <template #tabs>
-                <AccordionTab header="HEADER1">
-                    <h1>CONTENT 1</h1>
-                </AccordionTab>
+        <Accordion :listOfTabs="tabs">
+            <template #0>
+                First slot
             </template>
-        </Accordion> -->
+            <template #1>
+                Second slot
+            </template>
+            <template #2>
+                Third slot
+            </template>
+        </Accordion>
     </div>
 </template>
 
 <script setup>
-
 const pages = {
     name: 'Ohutu Kodu',
     subpages: [
@@ -40,9 +43,9 @@ const pages = {
 }
 
 const tabs = [
-    { title: 'Title 1' },
-    { title: 'Title 2' },
-    { title: 'Title 3' }
+    { header: 'Title 1' },
+    { header: 'Title 2' },
+    { header: 'Title 3' }
 ];
 
 </script>
