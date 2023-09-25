@@ -3,6 +3,10 @@
 - using theme colors in CSS <https://tailwindcss.com/docs/functions-and-directives#theme>
   - HMR does not work
 
+- Example tailwind config <https://stackoverflow.com/questions/67679410/nextjs-not-able-to-use-custom-colors-in-tailwind-css-in>
+- Stylus error 'colors.primary.500' does not exist in your theme config.(invalidConfigPath)
+  - Disable the "tailwindCSS.lint.invalidConfigPath" property in VS Code settings.
+
 ## Starting the project
 
 1. Install PNPM <https://pnpm.io/installation>

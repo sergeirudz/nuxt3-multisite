@@ -2,7 +2,8 @@ import type { Config } from 'tailwindcss'
 // import tailwindForms from '@tailwindcss/forms'
 
 export default <Partial<Config>>{
-  // module.exports = {
+  mode: 'jit',
+  purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   darkMode: 'class',
   content: [
     '../../node_modules/flowbite/**/*.{js,ts}',
