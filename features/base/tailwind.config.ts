@@ -3,7 +3,6 @@ import type { Config } from 'tailwindcss'
 
 export default <Partial<Config>>{
   mode: 'jit',
-  purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   darkMode: 'class',
   content: [
     '../../node_modules/flowbite/**/*.{js,ts}',
