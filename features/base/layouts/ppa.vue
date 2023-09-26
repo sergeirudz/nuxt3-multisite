@@ -1,19 +1,23 @@
 <script setup lang="ts">
-import LangSwitcher from '../components/LangSwitcher.vue';
-import Navbar from '../components/Navbar.vue';
+// import LangSwitcher from '../components/LangSwitcher.vue';
+// import Navbar from '../components/Navbar.vue';
 
 </script>
 
 <template>
   <div data-theme="blue">
-
-    <header>
-      <LangSwitcher />
-      <Navbar />
+    <header class="flex flex-col">
+      <InfoBar />
+      <HeaderNavBar />
     </header>
-    <main class="bg-success-800 opacity-90">
+    <main>
       <slot />
     </main>
+    <Footer />
   </div>
 </template>
-<style></style>
+<style lang="stylus">
+.container
+  max-width 1180px
+  margin auto
+</style>

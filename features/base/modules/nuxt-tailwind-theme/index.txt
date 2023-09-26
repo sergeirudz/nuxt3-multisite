@@ -1,0 +1,28 @@
+import { defineNuxtModule, addTemplate } from '@nuxt/kit'
+
+export default defineNuxtModule({
+  meta: {
+    name: 'nuxt-tailwind-typo',
+  },
+  setup(options, nuxt) {
+    nuxt.hook('tailwindcss:config', function (tailwindConfig) {
+      console.log('tailwindConfig', tailwindConfig)
+
+      tailwindConfig.theme.extend.colors = {
+        ...tailwindConfig.theme.extend.colors,
+        primary: {
+          50: '#ff0000',
+          100: '#ff0000',
+          200: '#ff0000',
+          300: '#ff0000',
+          400: '#ff0000',
+          500: '#ff0000',
+          600: '#ff0000',
+          700: '#ff0000',
+          800: '#ff0000',
+          900: '#ff0000',
+        },
+      }
+    })
+  },
+})

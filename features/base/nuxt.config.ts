@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-vitest'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    // '@nuxtjs/i18n',
+    'nuxt-vitest',
+  ],
   build: {
     transpile: ['primevue'],
   },
@@ -9,7 +13,7 @@ export default defineNuxtConfig({
   //     // Set global config
   //   }
   // },
-  css: [],
+  css: ['primevue/resources/themes/lara-light-blue/theme.css'],
   devtools: { enabled: false },
   i18n: {
     // detectBrowserLanguage: false, // https://v8.i18n.nuxtjs.org/guide/browser-language-detection

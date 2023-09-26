@@ -1,5 +1,12 @@
 # Info
 
+- using theme colors in CSS <https://tailwindcss.com/docs/functions-and-directives#theme>
+  - HMR does not work
+
+- Example tailwind config <https://stackoverflow.com/questions/67679410/nextjs-not-able-to-use-custom-colors-in-tailwind-css-in>
+- Stylus error 'colors.primary.500' does not exist in your theme config.(invalidConfigPath)
+  - Disable the "tailwindCSS.lint.invalidConfigPath" property in VS Code settings.
+
 ## Starting the project
 
 1. Install PNPM <https://pnpm.io/installation>
@@ -54,6 +61,7 @@ Nuxi CLI: <https://vueschool.io/articles/vuejs-tutorials/getting-started-with-nu
 
 [+] Tailwindcss theme for each org
 
+[-] Add tailwind sorting <https://tailwindcss.com/blog/automatic-class-sorting-with-prettier>
 [-] fix imports autosuggestion
 [-] fix why language does not show both EN and ET. Works but selection not visible.
 
