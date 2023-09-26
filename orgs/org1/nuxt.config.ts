@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '../../features/career',
     '../../features/ohutu-kodu',
     '../../features/materjalid',
+    '../../features/teenindused',
   ],
   devtools: { enabled: false },
   css: ['~/assets/styles/main.styl'],
