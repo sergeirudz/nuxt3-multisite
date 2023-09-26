@@ -22,4 +22,5 @@ export default {
     },
   ],
   lastModified: '05.02',
+  heading: 'Stats heading here',
 }

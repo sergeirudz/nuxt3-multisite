@@ -1,5 +1,9 @@
 import actionsData from './actionsData'
 
 export default () => {
-  return actionsData
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(actionsData)
+    }, 100)
+  })
 }

@@ -1,5 +1,5 @@
 <template>
-    <HeroImage :image="heroImage" />
+    <!-- BANNER here-->
     Career Page
 </template>
 
