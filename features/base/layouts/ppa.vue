@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // import LangSwitcher from '../components/LangSwitcher.vue';
 // import Navbar from '../components/Navbar.vue';
-
+import HeaderNavBarMega from '../components/HeaderNavBarMega/index.vue';
 </script>
 
 <template>
@@ -9,6 +9,7 @@
     <header class="flex flex-col">
       <InfoBar />
       <HeaderNavBar />
+      <!-- <HeaderNavBarMega /> -->
     </header>
     <main>
       <slot />

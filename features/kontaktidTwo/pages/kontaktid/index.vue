@@ -8,7 +8,7 @@
                 curabitur pellentesque. Aliquet in velit id facilisis. Ac blandit mollis in ac purus nisl amet.</p>
         </template>
         <template #aside>
-            <KontaktidPanelMenu :data="fetchedAllRegions" />
+            <ContactsPanelMenu :data="fetchedAllRegions" />
         </template>
         <template #contacts>
 

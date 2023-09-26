@@ -5,7 +5,7 @@
             <p>RANDOM SISU</p>
         </template>
         <template #aside>
-            <KontaktidPanelMenu :data="fetchedAllRegionGroups" />
+            <ContactsPanelMenu :data="fetchedAllRegionGroups" />
         </template>
         <template #contacts>
 

@@ -27,8 +27,8 @@
   </div>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+import Breadcrumb from 'primevue/breadcrumb';
 
 const props = defineProps({
   menu: {

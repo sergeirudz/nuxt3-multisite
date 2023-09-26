@@ -2,7 +2,7 @@
   <div class="container">
     <Breadcrumbs />
     <slot name="header" />
-    <KontaktidSearchMenu :data="regions" />
+    <ContactsSearchMenu :data="regions" />
 
     <div class="grid grid-cols-[308px_1fr] gap-11">
       <aside>

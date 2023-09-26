@@ -9,9 +9,10 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
+import PanelMenu from 'primevue/panelmenu';
 
 const expandedKeys = ref({});
 const router = useRouter();
