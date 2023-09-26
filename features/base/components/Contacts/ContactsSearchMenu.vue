@@ -60,7 +60,8 @@
   border-radius: 0 !important
 </style>
 
-<script setup>
+<script setup lang="ts">
+import TabMenu from 'primevue/tabmenu';
 import { ref, onMounted } from "vue";
 import { useRouter, useRoute } from "vue-router";
 
